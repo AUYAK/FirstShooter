@@ -2,6 +2,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
+
 [RequireComponent(typeof(Rigidbody))]
 public class PlayerMotor : MonoBehaviour {
 
@@ -9,7 +11,6 @@ public class PlayerMotor : MonoBehaviour {
     private Camera cam;
 
     private Rigidbody RB;
-
     private Vector3 velocity = Vector3.zero;
     private Vector3 rotation = Vector3.zero;
     private Vector3 camRotation = Vector3.zero;

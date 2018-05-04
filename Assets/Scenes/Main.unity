@@ -149,7 +149,7 @@ MonoBehaviour:
   m_ScriptCRCCheck: 1
   m_MaxDelay: 0.01
   m_LogLevel: 2
-  m_PlayerPrefab: {fileID: 1332474667414314, guid: 1ef1253fac99a4f4db462ac2ad0454d9,
+  m_PlayerPrefab: {fileID: 1207692135342308, guid: f147fa57d71a9214485902a16666a94f,
     type: 2}
   m_AutoCreatePlayer: 1
   m_PlayerSpawnMethod: 1
@@ -568,6 +568,23 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: eb5e01ca629f1894186ffde0ed28d33d, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &597925612 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1410880384113558, guid: b471d26a5eac87b4086c90c7c0b76f4e,
+    type: 2}
+  m_PrefabInternal: {fileID: 265403869}
+--- !u!65 &597925616
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 597925612}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.9999999, y: 0.9999999, z: 0.99999994}
+  m_Center: {x: 0, y: 0.49999994, z: -0.000000029802322}
 --- !u!1001 &627958032
 Prefab:
   m_ObjectHideFlags: 0
@@ -770,7 +787,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 950653904}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -7.72}
+  m_LocalPosition: {x: -2.15, y: 1, z: -7.72}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 34985794}
@@ -992,7 +1009,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1411554273}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 0, y: 1, z: 7.54}
+  m_LocalPosition: {x: -1.83, y: 1, z: 1.35}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 34985794}
@@ -1104,6 +1121,11 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 23502500370455974, guid: db58b1eda8133c84983d20108c13888e,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 488bf27a823ffaf4b97e7d677b101879, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: db58b1eda8133c84983d20108c13888e, type: 2}
   m_IsPrefabParent: 0
@@ -1248,7 +1270,7 @@ AudioListener:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1755970247}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!124 &1755970249
 Behaviour:
   m_ObjectHideFlags: 0
